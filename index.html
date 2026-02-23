@@ -1,0 +1,93 @@
+﻿﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta http-equiv='refresh' content='30'>
+<title>Live Turnierstand</title>
+<style>
+body{font-family:Arial;background:#f4f6f8;margin:0;padding:10px;}
+.container{
+max-width:900px;
+margin:auto;
+background:white;
+padding:15px;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+.nav{display:flex;gap:10px;margin-bottom:15px;}
+.nav a{
+flex:1;
+text-align:center;
+padding:10px;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+.blue{background:#1976d2;}
+.green{background:#2e7d32;}
+h1{font-size:22px;margin-bottom:5px;}
+h2{font-size:16px;color:#555;margin-top:0;margin-bottom:15px;}
+.table-wrap{overflow-x:auto;}
+table{
+width:100%;
+border-collapse:collapse;
+font-size:14px;
+min-width:600px;
+}
+th{
+background:#424242;
+color:white;
+padding:8px;
+text-align:center;
+}
+td{
+padding:6px;
+border-bottom:1px solid #ddd;
+text-align:center;
+}
+.players-row td{
+font-size:11px !important;
+color:#555;
+padding:2px 8px 6px 8px;
+text-align:left;
+line-height:1.2;
+}
+.group-even{background:#ffffff;}
+.group-odd{background:#f7f7f7;}
+.update{
+margin-top:10px;
+font-size:12px;
+color:#666;
+}
+@media(max-width:700px){
+.players-row td{
+font-size:10px !important;
+padding:2px 6px 4px 6px;
+}
+}
+</style>
+</head>
+<body>
+<div class='container'>
+<div class='nav'><a class='green' href='index.html'>Turnierliste</a><a class='blue' href='gesamt.html'>Gesamtrangliste</a></div><h1>Live Turnierstand</h1><h2>Grenzcup Open 2026 (MGC Feldkirch)</h2><div class='table-wrap'><table>
+<tr><td colspan='8' class='group'>Gruppe 1</td></tr>
+<tr><td colspan='8' class='group'>Gruppenname (optional)</td></tr>
+<tr><td>Spieler Name</td><td>R1</td><td>P1</td><td>R2</td><td>P2</td><td>R3</td><td>P3</td><td>Gesamt</td></tr>
+<tr><td>Daniela Künz</td><td>24</td><td>2</td><td>23</td><td>2</td><td>27</td><td>2</td><td>6</td></tr>
+<tr><td>Alfons Caviezel</td><td>26</td><td>2</td><td>26</td><td>2</td><td>25</td><td>2</td><td>6</td></tr>
+<tr><td>Alfred Gruber</td><td>28</td><td>1</td><td>20</td><td>2</td><td>25</td><td>1</td><td>4</td></tr>
+<tr><td>Alfred Moser</td><td>24</td><td>2</td><td>23</td><td>2</td><td>24</td><td>2</td><td>6</td></tr>
+<tr><td>SUMME PUNKTE:</td><td></td><td>7</td><td></td><td>8</td><td></td><td>7</td><td>22</td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan='8' class='group'>Gruppe 2</td></tr>
+<tr><td colspan='8' class='group'>Gruppenname (optional)</td></tr>
+<tr><td>Spieler Name</td><td>R1</td><td>P1</td><td>R2</td><td>P2</td><td>R3</td><td>P3</td><td>Gesamt</td></tr>
+<tr><td>Alexander Selos</td><td>38</td><td>1</td><td>30</td><td>1</td><td>28</td><td>1</td><td>3</td></tr>
+<tr><td>Andreas Niedermeir</td><td>29</td><td>1</td><td>29</td><td>1</td><td>29</td><td>1</td><td>3</td></tr>
+<tr><td>Armin Rachl</td><td>22</td><td>2</td><td>25</td><td>1</td><td>24</td><td>2</td><td>5</td></tr>
+<tr><td>Bernd Hess</td><td>31</td><td>1</td><td>33</td><td>1</td><td>27</td><td>1</td><td>3</td></tr>
+<tr><td>SUMME PUNKTE:</td><td></td><td>5</td><td></td><td>4</td><td></td><td>5</td><td>14</td></tr>
+</table>
+<div class='update'>Letztes Update: 23.02.2026 22:45:43</div></div></body></html>
